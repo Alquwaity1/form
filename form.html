@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Alquwaity Login page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="font-family: 'Times New Roman', Times, serif; margin: 16px; padding: 16px; height: 40vh;" >
+        <header style="background-color: blue; color: white; font-size: 30px; text-shadow: 2px; text-align: center;">
+        <h1>Alquwaity</h1>
+        </header>
+        <h2>Sign up</h2>
+        <p>Stay updated on your professional world</p>
+        <form action="/action_page.php" onsubmit="myFunction()">
+            <fieldset>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+            <label for="phone">Phone No.:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="male" value="male"><br>
+
+            <label for="female">Female</label>
+            <input type="radio" name="sex" id="female" value="female"><br><br>
+
+            <input type="submit" value="Submit" style="color: white; background-color: blue;"><br><br>
+        </fieldset>
+        </form>
+        <script>
+            function myFunction() {
+            alert("The form was Successfully Submitted");
+            }
+        </script>
+        <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <footer style="text-align: center;">Copyright &copy; 2023</footer>
+    </body>
+</html>
